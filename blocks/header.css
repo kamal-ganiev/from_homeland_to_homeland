@@ -46,7 +46,7 @@
   max-width: 100%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 984px) {
   .header {
     padding-bottom: 38px;
   }
@@ -61,7 +61,7 @@
   }
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 720px) {
   .header {
     padding: 20px 0 14px;
   }
