@@ -1,0 +1,155 @@
+.place {
+  margin: 0 auto 80px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 460px 484px;
+  grid-template-rows: auto 460px auto;
+  grid-template-areas:
+    "title author"
+    "image paragraphs"
+    "button paragraphs";
+  gap: 48px 40px;
+}
+
+.place__title {
+  margin: 0;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  grid-area: title;
+}
+
+.place__author {
+  margin: auto 0 0;
+  grid-area: author;
+}
+
+.place__author-tag {
+  margin: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #aaaaaa;
+  text-transform: uppercase;
+}
+
+.place__author-name {
+  margin: 8px 0 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.place__author-name-2 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.place__image {
+  grid-area: image;
+  width: 460px;
+  height: 460px;
+}
+
+.place__paragraphs {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  grid-area: paragraphs;
+}
+
+.place__paragraph {
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+}
+
+.place__button {
+  grid-area: button;
+  margin: 0;
+  color: white;
+  width: 248px;
+  height: 48px;
+  background-color: #0278fe;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.place__button:hover {
+  background-color: #0063d2;
+}
+
+@media screen and (max-width: 1184px) {
+  .place {
+    margin-bottom: 72px;
+    grid-template-columns: 340px 352px;
+    grid-template-rows: auto 340px auto;
+    gap: 48px 28px;
+  }
+
+  .place__title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+
+  .place__image {
+    width: 340px;
+    height: 340px;
+  }
+
+  .place__paragraph {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .place {
+    margin-bottom: 50px;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas:
+      "title"
+      "author"
+      "image"
+      "paragraphs"
+      "button";
+    gap: 30px;
+  }
+
+  .place__title {
+    margin: 0 16px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .place__image {
+    margin: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .place__author {
+    margin: 0 16px;
+  }
+
+  .place__paragraph {
+    margin: 0 16px;
+    font-size: 16px;
+  }
+
+  .place__button {
+    margin: 0;
+    width: 100%;
+  }
+
+  .place__link {
+    margin: 0 auto;
+    width: 288px;
+  }
+}
