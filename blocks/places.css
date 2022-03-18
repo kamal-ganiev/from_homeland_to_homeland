@@ -6,3 +6,9 @@
   padding-top: 42px;
   max-width: 987px;
 }
+
+@media screen and (max-width: 720px) {
+  .places {
+    margin-bottom: 64px;
+  }
+}
