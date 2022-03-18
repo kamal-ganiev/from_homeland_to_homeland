@@ -85,6 +85,11 @@
   background-color: #0063d2;
 }
 
+.place__link {
+  width: 248px;
+  height: 48px;
+}
+
 @media screen and (max-width: 1184px) {
   .place {
     margin-bottom: 72px;
