@@ -2,7 +2,7 @@
   max-width: 1184px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  margin: 0 auto 50px;
+  margin: 118px auto 50px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 16px 1fr 16px 1fr 16px 1fr;
@@ -51,6 +51,7 @@
 @media screen and (max-width: 1184px) {
   .photo-grid {
     max-width: 720px;
+    margin-top: 90px;
     -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     -ms-grid-rows: (1fr);
