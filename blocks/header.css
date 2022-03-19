@@ -30,8 +30,7 @@
   text-align: center;
   margin: 0 auto;
   max-width: 793px;
-  font-family: "Inter";
-  font-style: normal;
+  font-weight: 900;
   font-size: 96px;
   line-height: 100px;
   line-height: 1.25;
@@ -40,8 +39,6 @@
 .header__subtitle {
   margin: 32px auto 64px;
   max-width: 720px;
-  font-family: "Inter";
-  font-style: normal;
   font-weight: 400;
   font-size: 30px;
   line-height: 36px;

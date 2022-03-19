@@ -54,7 +54,7 @@
 
 .cover__address {
   margin: 0;
-  width: 280px;
+  max-width: 280px;
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
