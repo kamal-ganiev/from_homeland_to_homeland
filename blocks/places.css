@@ -3,10 +3,19 @@
   margin: 0 auto 92px;
   padding-top: 42px;
   max-width: 987px;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+}
+
+@media screen and (max-width: 1184px) {
+  .places {
+    padding-top: 38px;
+  }
 }
 
 @media screen and (max-width: 720px) {
   .places {
+    padding-top: 12px;
     margin-bottom: 64px;
   }
 }

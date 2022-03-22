@@ -7,6 +7,8 @@
   justify-content: center;
   color: white;
   margin: 92px auto 24px;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
 }
 
 .footer__copyrights {

@@ -2,7 +2,7 @@
   margin: 0 auto;
   max-width: 1184px;
   width: 100%;
-  height: 740px;
+  min-height: 740px;
   color: white;
   background-color: gray;
   background-image: url("../images/cover/__background.png");
@@ -23,7 +23,7 @@
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  font-family: "Inter";
+  font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
 }
 
@@ -56,13 +56,16 @@
   margin: 0;
   max-width: 280px;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 18px;
+  line-height: 22px;
   text-align: center;
   z-index: 2;
 }
 
 .cover__button {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
   margin: 32px 0 0;
   width: 137px;
   height: 48px;
@@ -81,12 +84,6 @@
   transition: 0.3s;
 }
 
-.cover__link {
-  width: 137px;
-  height: 48px;
-  z-index: 2;
-}
-
 .cover__button:hover {
   background-color: #0063d2;
 }
@@ -95,13 +92,13 @@
   .cover {
     width: 100%;
     max-width: none;
-    height: 746px;
+    min-height: 746px;
   }
 }
 
 @media screen and (max-width: 720px) {
   .cover {
-    height: 254px;
+    min-height: 254px;
   }
 
   .cover__title {
