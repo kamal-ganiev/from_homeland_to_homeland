@@ -123,7 +123,7 @@
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 740px) {
   .place {
     margin-bottom: 50px;
     -ms-grid-columns: 100%;
