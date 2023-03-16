@@ -13,4 +13,4 @@ This is a project that showcases the hometowns of some of Yandex's employees. We
 
 **Pages**
 
-- [Link to the project](https://kamal-ganiev.github.io/web_project_3/)
+- [Link to the project](https://kamal-ganiev.github.io/from_homeland_to_homeland/)
