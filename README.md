@@ -1,8 +1,8 @@
-# Project 3: From Homeland to Homeland
+# From Homeland to Homeland
 
 **Intro**
 
-This is a project that showcases the hometowns of some of Yandex's employees. We've made it so all the elements are displayed correctly on popular screen sizes.
+This is a project that showcases the hometowns of some of Yandex's employees. I've made it so all the elements are displayed correctly on popular screen sizes.
 
 **Technologies**
 
